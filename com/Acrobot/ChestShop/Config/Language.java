@@ -4,44 +4,34 @@ package com.Acrobot.ChestShop.Config;
  * @author Acrobot
  */
 public enum Language {
-    prefix("&a[Shop] &f"),
-    iteminfo("&aItem Information:&f"),
+    prefix: "&a[Shop] &f"
+    iteminfo: "&aInformation sur l'Objet :&f"
+    ACCESS_DENIED: "&4Vous n'avez pas la permission !"
+    NOT_ENOUGH_MONEY: "Vous n'avez pas de quoi payer !"
+    NOT_ENOUGH_MONEY_SHOP: "Le vendeur n'a pas de quoi vous payer !"
+    NO_BUYING_HERE: "Vous ne pouvez pas acheter ici !"
+    NO_SELLING_HERE: "Vous ne pouvez pas vendre ici !"
+    NOT_ENOUGH_SPACE_IN_INVENTORY: "Vous n'avez plus de place dans votre inventaire !"
+    NOT_ENOUGH_SPACE_IN_CHEST: "Il n'y a plus de place dans le coffre !"
+    NOT_ENOUGH_ITEMS_TO_SELL: "Vous n'avez pas d'objet à vendre !"
+    NOT_ENOUGH_STOCK: "Ce Magasin est vide."
+    NOT_ENOUGH_STOCK_IN_YOUR_SHOP: "Votre Magasin de %material est vide !"
+    YOU_BOUGHT_FROM_SHOP: "Vous avez achète %amount %item à %owner pour %price."
+    SOMEBODY_BOUGHT_FROM_YOUR_SHOP: "%buyer vous achète %amount %item pour %price."
+    YOU_SOLD_TO_SHOP: "Vous avez vendu %amount %item à %buyer pour %price."
+    SOMEBODY_SOLD_TO_YOUR_SHOP: "%seller vous à vendu %amount %item pour %price."
+    YOU_CANNOT_CREATE_SHOP: "Vous ne pouvez pas créer ce type de Magasin !"
+    NO_CHEST_DETECTED: "Impossible de trouver le coffre !"
+    ANOTHER_SHOP_DETECTED: "Le Magasin d'un autre joueur est détecté !"
+    CANNOT_ACCESS_THE_CHEST: "Vous n'avez pas la permission d'accéder à ce coffre !"
+    PROTECTED_SHOP: "Le Magasin est protégé par LWC !"
+    SHOP_CREATED: "Le Magasin est créé !"
+    NO_PERMISSION: "Vous n'avez pas la permission !"
+    INCORRECT_ITEM_ID: "Vous avez spécifié une ID invalide !"
+    SHOP_REFUNDED: "Vous avez ete remboursé de %amount."
+    NOT_ENOUGH_PROTECTIONS: "Vous avez atteint la limite de protection !"
+    CANNOT_CREATE_SHOP_HERE: "Vous ne pouvez pas créer un Magasin ici !"
 
-    ACCESS_DENIED("You don't have permission to do that!"),
-
-    NOT_ENOUGH_MONEY("You don't have enough money!"),
-    NOT_ENOUGH_MONEY_SHOP("Shop owner doesn't have enough money!"),
-
-    NO_BUYING_HERE("You can't buy here!"),
-    NO_SELLING_HERE("You can't sell here!"),
-
-    NOT_ENOUGH_SPACE_IN_INVENTORY("You haven't got enough space in inventory!"),
-    NOT_ENOUGH_SPACE_IN_CHEST("There isn't enough space in chest!"),
-    NOT_ENOUGH_ITEMS_TO_SELL("You don't have enough items to sell!"),
-
-    NOT_ENOUGH_STOCK("This shop is out of stock."),
-    NOT_ENOUGH_STOCK_IN_YOUR_SHOP("Your %material shop is out of stock!"),
-
-    YOU_BOUGHT_FROM_SHOP("You bought %amount %item from %owner for %price."),
-    SOMEBODY_BOUGHT_FROM_YOUR_SHOP("%buyer bought %amount %item for %price from you."),
-
-    YOU_SOLD_TO_SHOP("You sold %amount %item to %buyer for %price."),
-    SOMEBODY_SOLD_TO_YOUR_SHOP("%seller sold %amount %item for %price to you."),
-
-    YOU_CANNOT_CREATE_SHOP("You can't create this type of shop!"),
-    NO_CHEST_DETECTED("Couldn't find a chest!"),
-    ANOTHER_SHOP_DETECTED("Another player's shop detected!"),
-    CANNOT_ACCESS_THE_CHEST("You don't have permissions to access this chest!"),
-
-    PROTECTED_SHOP("Successfully protected the shop with LWC!"),
-    SHOP_CREATED("Shop successfully created!"),
-    SHOP_REFUNDED("You have been refunded %amount."),
-
-    NO_PERMISSION("You don't have permissions to do that!"),
-    INCORRECT_ITEM_ID("You have specified invalid item id!"),
-    NOT_ENOUGH_PROTECTIONS("You have reached the protection limit!"),
-
-    CANNOT_CREATE_SHOP_HERE("You can't create shop here!");
 
 
     private final String text;
